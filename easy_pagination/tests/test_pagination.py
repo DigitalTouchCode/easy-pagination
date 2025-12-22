@@ -5,16 +5,58 @@ Run with: python manage.py test easy_pagination.tests.test_pagination
 Or: pytest tests/test_pagination.py
 """
 
-from django.test import TestCase
+import pytest
 from rest_framework.request import Request
 from rest_framework.test import APIRequestFactory
+import os
+import sys
+import pytest
+from django.conf import settings
+from django.test import TestCase
+from rest_framework.test import APIRequestFactory
+from rest_framework.request import Request
 
-from easy_pagination.pagination import (
-    LargeResultsPagination,
-    NoPagination,
-    SmallResultsPagination,
+# Add the parent directory to the Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+# Configure minimal Django settings
+if not settings.configured:
+    settings.configure(
+        DATABASES={
+            'default': {
+                'ENGINE': 'django.db.backends.sqlite3',
+                'NAME': ':memory:'
+            }
+        },
+        INSTALLED_APPS=[
+            'django.contrib.contenttypes',
+            'django.contrib.auth',
+            'rest_framework',
+        ],
+        REST_FRAMEWORK={
+            'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+            'PAGE_SIZE': 10
+        },
+        SECRET_KEY='test-key'
+    )
+    import django
+    django.setup()
+
+# Import your pagination classes
+from easy_pagination import (
     StandardPagination,
-    get_pagination_class,
+    LargeResultsPagination,
+    SmallResultsPagination,
+    NoPagination,
+    get_pagination_class
+)
+
+from .. import (
+    StandardPagination,
+    LargeResultsPagination,
+    SmallResultsPagination,
+    NoPagination,
+    get_pagination_class
 )
 
 
