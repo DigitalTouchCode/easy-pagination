@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "easy-pagination" # Standardized with a hyphen for PyPI
+name = "easy-pagination" 
 version = "0.1.0"
 description = "Custom pagination classes for Django REST Framework"
 readme = "README.md"
-requires-python = ">=3.10" # Modern standard for 2025
+requires-python = ">=3.10" 
 license = {text = "MIT"}
 authors = [
     {name = "Casper Moyo", email = "cassymyo@gmail.com"}
@@ -45,7 +45,6 @@ dev = [
 ]
 
 [tool.pytest.ini_options]
-# FIXED: Changed to lowercase for pytest-django compatibility
 django_settings_module = "tests.settings"
 python_files = ["test_*.py", "*_test.py"]
 testpaths = ["tests"]
