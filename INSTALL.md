@@ -14,7 +14,7 @@ pip install easy_pagination
 
 ```bash
 # Clone the repository
-git clone https://github.com/casperspec-1/easy-pagination.git
+git clone https://github.com/digitaltoouchcode/easy-pagination.git
 cd easy-pagination
 
 # Install in development mode (editable)
@@ -27,7 +27,7 @@ pip install .
 ### Method 3: Install from GitHub
 
 ```bash
-pip install git+https://github.com/casperspec-1/easy-pagination.git
+pip install git+https://github.com/digitaltouch/easy-pagination.git
 ```
 
 ### Method 4: Install with Development Dependencies
@@ -136,7 +136,7 @@ pip install --upgrade Django djangorestframework
 ## Uninstallation
 
 ```bash
-pip uninstall drf-easy-pagination
+pip uninstall easy_pagination
 ```
 
 ## Next Steps
