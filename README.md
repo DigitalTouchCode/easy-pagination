@@ -183,7 +183,7 @@ All pagination classes return responses with the following structure:
 
 ## Requirements
 
-- Python >= 3.7
+- Python >= 3.9
 - Django >= 3.2
 - djangorestframework >= 3.12
 
