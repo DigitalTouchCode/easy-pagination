@@ -7,7 +7,7 @@ This guide will help you install and use Django Easy Pagination in your project.
 ### Method 1: Install from PyPI (Recommended - when published)
 
 ```bash
-pip install drf-easy-pagination
+pip install easy_pagination
 ```
 
 ### Method 2: Install from Source (Current)
