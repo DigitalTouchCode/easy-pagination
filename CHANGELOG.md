@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `get_pagination_class()` factory function for dynamic pagination
 - Comprehensive test suite
 - Full documentation and examples
-- Support for Django 3.2+ and Django REST Framework 3.12+
+- Support for Django 4.0+ and Django REST Framework 3.12+
 - Support for Python 3.9+
 
 ### Features
