@@ -5,13 +5,6 @@ This module provides reusable pagination classes that can be used across
 the entire project. These classes provide rich metadata and are easily
 customizable per view.
 
-Usage:
-    # In your viewset:
-    from utils.pagination import StandardPagination
-
-    class MyViewSet(viewsets.ModelViewSet):
-        pagination_class = StandardPagination
-        # ... rest of your viewset
 """
 
 from collections import OrderedDict
