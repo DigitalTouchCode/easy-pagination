@@ -10,7 +10,7 @@ INSTALLED_APPS = [
     "easy_pagination", 
 ]
 
-# Minimal Database (SQLite is best for library testing)
+# Minimal Database 
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
