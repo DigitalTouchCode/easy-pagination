@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Comprehensive test suite
 - Full documentation and examples
 - Support for Django 3.2+ and Django REST Framework 3.12+
-- Support for Python 3.7+
+- Support for Python 3.9+
 
 ### Features
 - Rich pagination metadata including total_pages, current_page, and page_size
