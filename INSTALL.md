@@ -118,7 +118,7 @@ If you get `ModuleNotFoundError: No module named 'easy_pagination'`:
 Make sure Django and Django REST Framework are installed:
 
 ```bash
-pip install Django>=3.2 djangorestframework>=3.12
+pip install Django>=4.0 djangorestframework>=3.12
 ```
 
 ### Version Conflicts
