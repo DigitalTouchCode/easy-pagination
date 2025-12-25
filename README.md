@@ -193,7 +193,7 @@ All pagination classes return responses with the following structure:
 
 ```bash
 # Clone the repository
-git clone https://github.com/casperspec-1/easy-pagination.git
+git clone https://github.com/digitaltouchcode/easy-pagination.git
 cd easy-pagination
 
 # Install in development mode
