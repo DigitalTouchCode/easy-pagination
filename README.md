@@ -21,13 +21,13 @@ A Django REST Framework library providing customizable pagination classes with r
 Install using pip:
 
 ```bash
-pip install django-easy-pagination
+pip install easy_pagination
 ```
 
 Or install from source:
 
 ```bash
-git clone https://github.com/casperspec-1/easy-pagination.git
+git clone https://github.com/digitaltouchcode/easy-pagination.git
 cd easy-pagination
 pip install -e .
 ```
@@ -244,7 +244,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Casper**
 - Email: cassymyo@gmail.com
-- GitHub: [@casperspec-1](https://github.com/casperspec-1)
+- GitHub: [@casperspec-1](https://github.com/digitaltouchcoode)
 
 ## Changelog
 
