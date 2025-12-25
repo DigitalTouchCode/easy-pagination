@@ -2,7 +2,7 @@ SECRET_KEY = "testing-key"
 DEBUG = True
 USE_TZ = True
 
-# Minimal apps needed for DRF and your library
+# Minimal apps needed for DRF 
 INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.auth",
