@@ -3,9 +3,9 @@
 [![DRF Version](https://img.shields.io/badge/drf-3.12+-orange.svg)](https://www.django-rest-framework.org/)
 
 [![PyPI version](https://img.shields.io/pypi/v/easy-pagination.svg)](https://pypi.org/project/easy-pagination/)
-[![Downloads](https://img.shields.io/pypi/dm/easy-pagination.svg)](https://pypi.org/project/easy-pagination/)
+[![Downloads](https://img.shields.io/pypi/dt/easy-pagination.svg)](https://pypi.org/project/easy-pagination/)
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-M
 
 # Django Easy Pagination
 
