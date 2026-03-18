@@ -2,9 +2,12 @@
 
 A Django REST Framework library providing customizable pagination classes with rich metadata and flexible configuration options.
 
-[![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![Django Version](https://img.shields.io/badge/django-4.0+-green.svg)](https://www.djangoproject.com/)
+[![Python Version](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![Django Version](https://img.shields.io/badge/django-4.1+-green.svg)](https://www.djangoproject.com/)
 [![DRF Version](https://img.shields.io/badge/drf-3.12+-orange.svg)](https://www.django-rest-framework.org/)
+
+[![PyPI version](https://img.shields.io/pypi/v/easy-pagination.svg?v=1)](https://pypi.org/project/easy-pagination/)
+[![Downloads]
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Features
