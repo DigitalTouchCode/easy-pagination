@@ -3,7 +3,7 @@
 [![DRF Version](https://img.shields.io/badge/drf-3.12+-orange.svg)](https://www.django-rest-framework.org/)
 
 [![PyPI version](https://img.shields.io/pypi/v/easy-pagination.svg)](https://pypi.org/project/easy-pagination/)
-[![Downloads](https://img.shields.io/pypi/dt/easy-pagination.svg)](https://pypi.org/project/easy-pagination/)
+[![Downloads](https://static.pepy.tech/badge/easy-pagination)](https://pepy.tech/project/easy-pagination)
 
 [![License](https://img.shields.io/badge/license-M
 
